@@ -1,0 +1,46 @@
+.doctor-list-container {
+  max-width: 1000px; /* Center the table */
+  font-family: "Arial", sans-serif;
+}
+
+.doctor-table {
+  width: 100%;
+  border-collapse: collapse; /* No gaps between cells */
+  background-color: #fff; /* White table background */
+}
+
+.doctor-table th,
+.doctor-table td {
+  text-align: center; /* Center-align text */
+  padding: 10px 15px; /* Padding for better readability */
+  border: 1px solid #ddd; /* Light gray border */
+}
+
+.doctor-table th {
+  background-color: #03346E; /* Dark red background for the header */
+  color: #fff; /* White text for the header */
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.doctor-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2; /* Light gray for alternate rows */
+}
+
+.doctor-table tbody tr:hover {
+  background-color: #ffe6e6; /* Light red hover effect */
+}
+
+.doctor-table td {
+  font-size: 14px;
+}
+.doctor-table a {
+  color: #0066cc; /* Blue color for links */
+  text-decoration: none; /* Remove underline */
+  font-weight: bold;
+}
+
+.doctor-table a:hover {
+  text-decoration: underline; /* Add underline on hover */
+  color: #004080; /* Darker blue on hover */
+}

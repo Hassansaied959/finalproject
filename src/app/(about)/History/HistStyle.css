@@ -1,0 +1,28 @@
+.Title {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.Title i {
+  margin-right: 10px;
+  font-size: 1.5rem;
+  color: white;
+  background-color: rgb(212, 96, 60);
+  border-radius: 1px;
+  padding: 7px;
+}
+
+.Image img {
+  /* height: 700px;
+    width: 700px; */
+  width: 100%;
+}
+
+.History-body {
+  line-height: 50px;
+  font-size: large;
+}
+
+.Points {
+  font-weight: bold;
+}

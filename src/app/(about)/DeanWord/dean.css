@@ -1,0 +1,46 @@
+.Dean-photo img {
+  height: 400px;
+  width: 300px;
+}
+
+.Biography-Section {
+  border: solid rgb(248, 248, 248);
+  box-shadow: 0 0 6px;
+}
+
+.Bio-Content {
+  line-height: 40px;
+}
+
+/* .Bio-Content a i{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    bottom: 39px;
+    left: 100px;
+} */
+.Bio-Content a {
+  text-decoration: none;
+  color: gray;
+}
+.Bio-Content p {
+  font-size: 30px;
+}
+
+.Bio-Content h3 {
+  color: gray;
+}
+
+/* .biography{
+    display: inline;
+    gap: 10px;
+} */
+.Bio-Content a i {
+  margin-left: 10px;
+}
+
+.biography {
+}
+
+.Dean-content {
+}

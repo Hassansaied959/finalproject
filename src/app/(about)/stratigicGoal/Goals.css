@@ -1,0 +1,26 @@
+.Title {
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+
+.Title i {
+  margin-right: 10px;
+  font-size: 1.5rem;
+  color: white;
+  background-color: rgb(212, 96, 60);
+  border-radius: 1px;
+  padding: 7px;
+}
+.Goals-body p {
+  line-height: 35px;
+}
+
+.SecondG_Objectives {
+}
+.ThirdG_Objectives {
+}
+/* .Image img{
+    margin-left: 10px;
+} */

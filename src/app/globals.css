@@ -1,0 +1,158 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+.container {
+  @apply w-[95%] xl:w-[90%] mx-auto;
+}
+.contact-background {
+  background-image: url(../../public/images/contactbg.jpg);
+  background-size: cover;
+}
+.contact-input {
+  @apply w-full px-6 py-4 bg-[#F9F8F88C] text-black placeholder:text-black mb-8 rounded-2xl;
+}
+
+.Main-Div {
+  max-width: 1100px;
+  margin: auto;
+  border: 1px solid #ddd;
+  box-shadow: 0 10px 8px rgba(0, 0, 0, 0.2);
+
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+
+.Mission-Content-Div i {
+  margin-right: 10px;
+}
+.Mission-Content-Div span {
+  font-size: larger;
+}
+.Mission-Content-Div p {
+  position: relative;
+  top: 50px;
+  line-height: 40px;
+}
+.Mission-Content-Div {
+  flex: 1; /* Allow the content box to take up remaining space */
+  width: 80%; /* Adjust width as needed */
+  margin: 20px auto; /* Center the box horizontally */
+  padding: 20px; /* Add some padding for spacing */
+  border: 2px solid #333; /* Add a border */
+  border-radius: 10px; /* Optional: Add rounded corners */
+  box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.3); /* Add a shadow for a nice effect */
+  background-color: #f9f9f9; /* Background color */
+  color: #333; /* Text color */
+  height: 300px; /* Increase the height */
+  margin-bottom: 150px;
+  margin-top: 100px;
+}
+.Title {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.Title i {
+  margin-right: 10px;
+  font-size: 1.5rem;
+  color: white;
+  background-color: rgb(212, 96, 60);
+  border-radius: 1px;
+  padding: 7px;
+}
+
+.professor-info-section {
+  background-color: #f0f0f0; /* Light gray background */
+  padding: 20px; /* Add some padding for better spacing */
+  border-radius: 8px; /* Optional: rounded corners */
+  margin-bottom: 20px; /* Add spacing below the section */
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Optional: subtle shadow */
+  text-align: center;
+}
+.professor-info {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.professor-image {
+  width: 180px; /* Adjust size of the image */
+  height: 200px;
+  border-radius: 5;
+  object-fit: cover;
+  margin-bottom: 15px;
+  margin: auto;
+}
+
+.professor-name {
+  font-size: 1.5rem;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.professor-subtitle {
+  font-size: 1.2rem;
+  margin-top: 5px;
+  color: #555;
+}
+
+.biography-link {
+  color: red; /* Make the text red */
+  text-decoration: none; /* Remove the underline */
+  font-size: 1.2rem; /* Adjust the size */
+  display: block; /* Ensure it appears on a new line directly under the image */
+  margin-top: 10px; /* Add some spacing from the image */
+}
+
+.biography-link:hover {
+  text-decoration: none; /* No underline on hover */
+  color: darkred; /* Slightly darker red on hover for better interaction */
+}
+
+.faculty-section {
+  background-color: #ffffff; /* Light blue background */
+  padding: 20px; /* Padding around the section */
+  border-radius: 8px; /* Optional: Rounded corners */
+  margin-top: 20px; /* Spacing from the professor section */
+  text-align: center; /* Center-align content */
+}
+
+.faculty-link {
+  text-decoration: none; /* Remove underline */
+  color: #0d47a1; /* Dark blue color */
+  font-size: 1.2rem; /* Adjust font size for readability */
+}
+
+.faculty-link:hover {
+  color: #0a3871; /* Darker blue on hover */
+  text-decoration: underline; /* Optional underline on hover for clarity */
+}
+/* General container styling */
+.course-descriptions {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: 20px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.iconimage {
+  width: 40px; /* Set icon size */
+  height: 40px; /* Set icon size */
+}
+
+.custom-scroll {
+  scrollbar-color: red;
+}
+.custom-scroll::-webkit-scrollbar {
+  background-color: transparent;
+  width: 6px;
+}
+.custom-scroll::-webkit-scrollbar-thumb {
+  background-color: #bdbdbd;
+  border-radius: 10px;
+}

@@ -1,0 +1,53 @@
+.course-content {
+  font-family: "Arial", sans-serif;
+  margin: auto;
+  
+}
+
+.course-content .year {
+  font-size: 18px;
+  margin: 15px 0;
+  font-weight: bold;
+}
+
+.course-content .first-year {
+  color: red;
+}
+
+.course-content .second-year {
+  color: red;
+}
+
+.course-content .third-year,
+.course-content .fourth-year {
+  color: rgb(100, 4, 4);
+}
+
+.course-content .departments {
+  margin: 10px 0 0 20px;
+  list-style-type: none;
+  padding: 0;
+}
+
+.course-content .departments li {
+  margin: 5px 0;
+}
+
+.course-content .departments a {
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.course-content .info-systems {
+  color: red;
+}
+
+.course-content .computer-science {
+  color: blue;
+}
+
+.course-content .departments a:hover {
+  text-decoration: underline;
+  color: darkblue;
+}

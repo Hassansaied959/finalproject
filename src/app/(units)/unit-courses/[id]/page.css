@@ -1,0 +1,22 @@
+.training-courses p {
+  margin: 10px 0;
+  font-size: 20px;
+}
+
+.training-courses a {
+  text-decoration: none;
+  color: #0073e6;
+  font-weight: bold;
+}
+
+.training-courses a:hover {
+  color: #005bb5;
+  text-decoration: underline;
+}
+
+.training-courses h2 {
+  color: rgb(129, 8, 8);
+  font-size: 20px;
+  font: bold;
+  margin-top: 20px;
+}

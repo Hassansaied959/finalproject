@@ -1,0 +1,44 @@
+/* For the heading with pin icon */
+.main-section a {
+  color: blue;
+  text-decoration: underline;
+  display: inline-block;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+.heading-with-icon {
+  display: flex; /* Aligns the icon and heading side by side */
+  align-items: center;
+  font-size: medium; /* Centers the items vertically */
+  gap: 10px; /* Adds space between the icon and heading */
+}
+
+.iconimage {
+  width: 40px; /* Set icon size */
+  height: 40px; /* Set icon size */
+}
+
+/* Main section styles */
+.main-section {
+  width: 80%;
+  padding: 35px;
+  margin: auto;
+  margin-top: 40px;
+
+  border: 1px solid #ddd;
+  box-shadow: 0 10px 8px rgba(0, 0, 0, 0.2);
+
+  /* Hide overflow if content is larger than the box */
+}
+
+.content {
+  margin-top: 20px;
+  overflow-y: auto; /* Enable scrolling if content exceeds the height */
+}
+
+/* General layout for the entire section */
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
